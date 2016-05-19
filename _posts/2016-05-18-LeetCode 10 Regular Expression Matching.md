@@ -31,10 +31,12 @@ Let pointer_s and pointer_p to go through s and p. We meet two conditions:
 2. the next position of the pointer_p is '*'
 
 For the first condition:
+
 - If the position of the pointer_p is '.', we continue to match the rest.
 - If the position of the pointer_p is equal to the pointer_s, we continue to match the rest.
 
 For the second condition:
+
 - If the position of the pointer_p is '.', we must check from the position of pointer_s to the end of string, because '.*' can match any characters.
 - If the position of the pointer_p is not '.', which means it is 'a-b' or '0-9' or other characters, we must check from the position of pointer_s to the position of string which character is not equal pointer_p.
 
