@@ -69,6 +69,6 @@ class Solution(object):
             i_p += 1
 
         return i_p >= len_p
-  ```
+```
 
 
