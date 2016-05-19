@@ -36,7 +36,7 @@ Two pointers: i_s and i_p, which are for traveling string and pattern.
   - If there is not last_star, return false.
 
 
-### Python code
+### Python Code
 ```python
 class Solution(object):
     def isMatch(self, s, p):
