@@ -27,18 +27,18 @@ isMatch("aab", "c*a*b") → true
 ### Analysis
 Let pointer_s and pointer_p to go through s and p. We meet two conditions:
 
-1. the next position of the pointer_p is not '*'
-2. the next position of the pointer_p is '*'
+1. the next position of the pointer_p is not `*`
+2. the next position of the pointer_p is `*`
 
 For the first condition:
 
-- If the position of the pointer_p is '.', we continue to match the rest.
+- If the position of the pointer_p is `.`, we continue to match the rest.
 - If the position of the pointer_p is equal to the pointer_s, we continue to match the rest.
 
 For the second condition:
 
-- If the position of the pointer_p is '.', we must check from the position of pointer_s to the end of string, because '.*' can match any characters.
-- If the position of the pointer_p is not '.', which means it is 'a-b' or '0-9' or other characters, we must check from the position of pointer_s to the position of string which character is not equal pointer_p.
+- If the position of the pointer_p is `.`, we must check from the position of pointer_s to the end of string, because `.*` can match any characters.
+- If the position of the pointer_p is not `.`, which means it is `a-b` or `0-9` or other characters, we must check from the position of pointer_s to the position of string which character is not equal pointer_p.
 
 ### Return
 If pointer_p is at the end of pattern.
@@ -47,8 +47,8 @@ If pointer_p is at the end of pattern.
 2. Otherwise, it is not matching.
 
 ### Optimization
-1. Let's look at a pattern 'a*****', it is equal to pattern 'a*', so remove the repeated '*'.
-2. Let's look at a pattern 'a*a*a*a*a*', it is equal to pattern 'a*', so remove the repeated 'a*'.
+1. Let's look at a pattern `a*****`, it is equal to pattern `a*`, so remove the repeated `*`.
+2. Let's look at a pattern `a*a*a*a*a*`, it is equal to pattern `a*`, so remove the repeated `a*'`.
 
 
 ### Python Code
