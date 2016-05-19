@@ -4,6 +4,7 @@ title: LeetCode 10. Regular Expression Matching
 ---
 
 Implement regular expression matching with support for '.' and '*'.
+
 ```
 '.' Matches any single character.
 '*' Matches zero or more of the preceding element.
@@ -23,7 +24,7 @@ isMatch("ab", ".*") → true
 isMatch("aab", "c*a*b") → true
 ```
 
-#### Analysis
+### Analysis
 Let pointer_s and pointer_p to go through s and p. We meet two conditions:
 
 1. the next position of the pointer_p is not '*'
@@ -37,18 +38,18 @@ For the second condition:
 * If the position of the pointer_p is '.', we must check from the position of pointer_s to the end of string, because '.*' can match any characters.
 * If the position of the pointer_p is not '.', which means it is 'a-b' or '0-9' or other characters, we must check from the position of pointer_s to the position of string which character is not equal pointer_p.
 
-#### Return
+### Return
 If pointer_p is at the end of pattern.
 
 1. If pointer_s is at the end of string, it is matching now.
 2. Otherwise, it is not matching.
 
-#### Optimization
+### Optimization
 1. Let's look at a pattern 'a*****', it is equal to pattern 'a*', so remove the repeated '*'.
 2. Let's look at a pattern 'a*a*a*a*a*', it is equal to pattern 'a*', so remove the repeated 'a*'.
 
 
-#### Python Code
+### Python Code
 ```python
 class Solution(object):
     def isMatch(self, s, p):
