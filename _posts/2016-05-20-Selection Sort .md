@@ -3,18 +3,17 @@ layout: post
 title: Selection Sort. Python
 ---
 
-###Algothrim
+### Algothrim
 
 Give you an unsorted array.
 Divide the array into two part, one is sorted, which is built up from left to right. Another one is unsorted.
 The algorithm proceeds by finding the smallest one from the unsorted array(if we want the answer from small to big), exchanging it with the left most unsorted element.
 
-###Animation
+### Animation
 
-![Image of Animation]
-(https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif)
+![Image of Animation](https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif)
 
-###Python Code
+### Python Code
 
 ```python
 import sys
