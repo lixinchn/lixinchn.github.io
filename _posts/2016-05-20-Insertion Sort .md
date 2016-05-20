@@ -11,6 +11,8 @@ Divide the array into two parts, one is sorted which take left part of the array
 
 Every time, chose the first element from right part, compare it with elements in left sorted part from end to front one by one, then find the position of that element and insert it into left sorted part.
 
+Insertion sort is stable.
+
 
 ### Animation
 
