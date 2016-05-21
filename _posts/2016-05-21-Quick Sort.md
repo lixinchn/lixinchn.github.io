@@ -42,7 +42,7 @@ class QuickSort():
         
     def partition(self, data, low, high):
         flag = low
-        while low < high:
+        while low <= high:
             while low <= high and data[low] <= data[flag]:
                 low += 1
             while low <= high and data[high] >= data[flag]:
