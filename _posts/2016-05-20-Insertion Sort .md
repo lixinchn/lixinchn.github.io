@@ -3,7 +3,7 @@ layout: post
 title: Insertion Sort. Python
 ---
 
-### Algothrim
+### Algorithm
 
 Give you an unsorted array. Suppose we want an ascending order.
 
