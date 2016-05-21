@@ -3,7 +3,7 @@ layout: post
 title: Selection Sort. Python
 ---
 
-### Algothrim
+### Algorithm
 
 Give you an unsorted array.
 
