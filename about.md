@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 My name is Li Xin(李欣).
-Specialized in web development in Python/Javascript, interested in algorithm. Machine lerning beginner.
+Specialized in web development in Python/Javascript, interested in algorithm. Machine learning beginner.
 
 ### More Information
 
