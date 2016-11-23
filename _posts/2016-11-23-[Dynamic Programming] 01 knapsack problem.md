@@ -44,11 +44,11 @@ dp[i][j] =
 图表如下：
 
 
-|   背包        | 0kg | 1kg | 2kg | 3kg |
-| --------   | ----  | ----  | ---- | ---- |
-| 1kg(1value)      | 0value | 1value | 1value | 1value |
-| 2kg(3value)      | 0value | 1value | max(3 + 0, 1) = 3value | max(3 + 1, 1) = 4value |
-| 3kg(3value)      | 0value | 1value | 3value | max(3 + 0, 4) = 4value |
+| 背包 | 0kg | 1kg | 2kg | 3kg |
+| -------- | ----  | ----  | ---- | ---- |
+| 1kg(1value) | 0value | 1value | 1value | 1value |
+| 2kg(3value) | 0value | 1value | max(3 + 0, 1) = 3value | max(3 + 1, 1) = 4value |
+| 3kg(3value) | 0value | 1value | 3value | max(3 + 0, 4) = 4value |
 
 
 ----
