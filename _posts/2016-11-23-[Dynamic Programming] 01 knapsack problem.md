@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynamic Programming 01 knapsack problem
+title: (Dynamic Programming) 01 knapsack problem
 ---
 
 ### 描述
