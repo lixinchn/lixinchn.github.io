@@ -40,7 +40,9 @@ dp[i][j] =
 其中，i表示当前是第i个商品，j表示当前背包的载重量。
 
 ----
+
 图表如下：
+
 
 |   背包        | 0kg | 1kg | 2kg | 3kg |
 | --------   | ----  | ----  | ---- | ---- |
@@ -48,8 +50,11 @@ dp[i][j] =
 | 2kg(3value)      | 0value | 1value | max(3 + 0, 1) = 3value | max(3 + 1, 1) = 4value |
 | 3kg(3value)      | 0value | 1value | 3value | max(3 + 0, 4) = 4value |
 
+
 ----
+
 ### Python Code
+
 ```python
 class Solution():
     def do(self, list_weights, list_values, total_weight):
