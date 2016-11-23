@@ -2,6 +2,7 @@
 layout: post
 title: [Dynamic Programming]01 knapsack problem
 ---
+
 ### 描述
 给定一个背包，背包能装的重量是有限的，假设为n。
 
