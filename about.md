@@ -73,7 +73,7 @@ permalink: /about/
  - [react native one](https://github.com/lixinchn/react-native-one): 使用 react native 实现的夺宝项目的 iOS 客户端
 
 
- # 技能清单
+# 技能清单
 
 以下均为我熟练使用的技能
 
@@ -84,6 +84,7 @@ permalink: /about/
 - 数据库相关：MySQL/SQLite/Redis/MongoDB/Hadoop/Hive
 - 版本管理、文档和自动化部署工具：Svn/Git
 - 开放平台：微博开放平台/微信应用开发
+- 机器学习/深度学习: CNN/RNN/SVM/KNN/Regression
 
 
 # 愿景
