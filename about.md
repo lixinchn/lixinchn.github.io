@@ -4,13 +4,91 @@ title: About
 permalink: /about/
 ---
 
-My name is Li Xin(李欣).
-Specialized in web development in Python/Javascript, interested in algorithm. Machine learning beginner.
+# 联系方式
 
-### More Information
+- Email：lixinit@gmail.com
+- 微信：lixin_chn
 
-A place to include any other types of information that you'd like to include about yourself.
+---
 
-### Contact me
+# 个人信息
 
-[lixin.it@gmail.com](mailto:lixin.it@gmail.com)
+ - 李欣/男/1987
+ - 硕士/北京理工大学计算机系 
+ - 工作年限：6年
+ - 技术博客：http://lixinchn.github.io
+ - Github：http://github.com/lixinchn
+
+
+---
+
+# 工作经历
+
+## 北京无限点乐科技有限公司（ 2015年4月 ~ 至今 ）（to C 业务技术负责人）
+
+### 红包锁屏项目
+
+作为项目的技术负责人，搭建了整个项目的前端和后端架构。后端采用 python(tornado) 实现，前端使用了 Vue.js。项目在上线后半年内取得了 900 万月活的数据，随着用户量越来越大，我们分拆了部分业务做成微服务，如用户中心，push 中心等，采用 thrift 技术实现，成功解决了业务访问上的瓶颈，并将整体解决方案贡献以及数据贡献出来给全公司使用。
+
+项目中的最大难点就是反作弊系统的开发。我们在一些经验策略的基础上，搭建了一套基于简单机器学习的反作弊系统。涉及到的技术有"线性回归"，"逻辑回归"，"SVM"等，每个月可以帮公司避免数百万元的损失。
+
+每天产生的日志量，大约在数十G，提炼这些数据，能够更好的帮我们制定运营和产品策略。借用公司基于 hadoop 搭建的数据平台，我们能够准实时的对数据进行挖掘，创建用户画像、给用户归类、实时搜索满足特定条件的用户等。这些挖掘出的数据又反哺给数据运营、产品人员以及商务人员，这样，使得整个项目在既有的整体内良性循环。
+
+每天产生的日志量，大约在数十G，提炼这些数据，能够更好的帮我们制定运营和产品策略。借用公司基于 hadoop 搭建的数据平台，我们能够准实时的对数据进行挖掘，创建用户画像、给用户归类、实时搜索满足特定条件的用户等。这些挖掘出的数据又反哺给数据运营、产品人员以及商务人员，这样，使得整个项目在既有的整体内良性循环。
+
+### 闪电手夺宝项目
+
+该项目模式类似于网易的一元夺宝，更像是从红包锁屏项目里孵化出来的一个小项目，所以，整体的技术解决方案完全类似。不同的是，为了尝试新技术，在 iOS 客户端的实现上，尝试了 react native 技术。虽然并没有作为最终的产品上线，也算是给自己和公司的技术栈增加了更多的可能性。
+
+ 
+## 北京搜狗科技发展有限公司 （ 2010年12月 ~ 2015年4月 ）（前端团队负责人）
+
+### 搜狗浏览器项目 
+
+在研究生期间，作为实习生加入了搜狗浏览器团队。从浏览器插件，到浏览器插件平台，再到整个前端团队负责人，在职业生涯的早期得到了很多的锻炼。语言上，熟练使用 javascript, window C++, lua 等。熟悉 windows 平台的消息传递机制，webkit 内核使用的 v8 引擎，以及 jQuery, underscore, backbone 等前端框架。
+
+#### 广告过滤项目
+
+浏览器中的广告过滤功能，需要在用户打开网页时迅速将广告内容过滤掉。基于开源的广告名单，我们实现了同时支持 webkit 内核和 IE 内核的过滤系统。与 chrome 不同的是，chrome 采用 javascript 语言实现，我们采用了 C++ 语言在浏览器内核实现，要比 chrome 的解决方案快数十倍。
+
+#### 12306抢票项目
+
+每到春节等节假日，买火车票就成了难题。搜狗浏览器为了解决这个用户痛点，在抢票 1.0 版本的时候，支持帮助用户不断尝试登录网站。2.0 版本的时候，利用 12306 网站的验证码漏洞机制，能够在放票前半分钟内让用户提前输入验证码，在放票后自动提交该验证码，效率比竞争对手高出很多，在春运期间帮助用户抢到了数千万张火车票。3.0 版本的时候，利用神经网络训练当时的验证码，正确率能够达到95%以上，完全实现全自动抢票。对 12306 网站的架构也有一定的了解，这也对今后从事后端架构工作起到了很好的帮助。
+
+#### 搜狗浏览器插件平台
+
+基于 chrome 和 IE 内核，我们抽象出了一层逻辑，从而实现了双核插件平台，这也是 PC 浏览器时代唯一支持双核的插件平台／在那个年代，很多网站并不能很好的支持 chrome 内核，所以，能够研发出双核的插件平台也给用户带来了很多好处。
+
+#### 浏览器地址栏排序、浏览器起始页排序
+
+这两个项目的难点在于要从大量的用户历史数据中快速计算出用户的特征数据，但是很多排序策略又是随着时间改变的，导致策略并不能在浏览器里写死。于是我们将 luajit 嵌入在浏览器中，排序算法使用 lua 语言实现，这样既保证了随时下发更新策略，又保证了运算的速度。
+
+#### 其它项目
+
+另外，也负责了包括截图功能、下载一键通功能、浏览器官网等项目的实现。
+
+
+# 开源项目
+
+ - [LeetCode](https://github.com/lixinchn/LeetCode/tree/master/src)：leetcode 上部分题目的 python 实现
+ - [tensorflow example](https://github.com/lixinchn/tensorflow-examples)：基于 google 的 tensorflow 深度学习框架，实现的一些小demo，目前依然在学习中
+ - [react native one](https://github.com/lixinchn/react-native-one): 使用 react native 实现的夺宝项目的 iOS 客户端
+
+
+ # 技能清单
+
+以下均为我熟练使用的技能
+
+- Web开发：Python/Node/Javascript/css/HTML5
+- Web框架：Tornado/Thrift/Express
+- 前端框架：Bootstrap/ReactJs/React Native/VueJs
+- 前端工具：Bower/Gulp/SaSS/Webpack
+- 数据库相关：MySQL/SQLite/Redis/MongoDB/Hadoop/Hive
+- 版本管理、文档和自动化部署工具：Svn/Git
+- 开放平台：微博开放平台/微信应用开发
+
+
+# 愿景
+
+因为大学时数学成绩不错，高中时获得过国奖，所以更想将未来的重心放在深度学习上。
+
