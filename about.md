@@ -16,8 +16,8 @@ permalink: /about/
  - 李欣/男/1987
  - 硕士/北京理工大学计算机系 
  - 工作年限：6年
- - 技术博客：http://lixinchn.github.io
- - Github：http://github.com/lixinchn
+ - 技术博客：[http://lixinchn.github.io](http://lixinchn.github.io)
+ - Github：[http://github.com/lixinchn](http://github.com/lixinchn)
 
 
 ---
