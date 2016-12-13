@@ -15,7 +15,7 @@ permalink: /about/
 
  - 李欣/男/1987
  - 硕士/北京理工大学计算机系 
- - 工作年限：6年
+ - 工作年限：7年
  - 技术博客：[http://lixinchn.github.io](http://lixinchn.github.io)
  - Github：[http://github.com/lixinchn](http://github.com/lixinchn)
 
@@ -71,6 +71,7 @@ permalink: /about/
  - [LeetCode](https://github.com/lixinchn/LeetCode/tree/master/src)：leetcode 上部分题目的 python 实现
  - [tensorflow example](https://github.com/lixinchn/tensorflow-examples)：基于 google 的 tensorflow 深度学习框架，实现的一些小demo，目前依然在学习中
  - [react native one](https://github.com/lixinchn/react-native-one): 使用 react native 实现的夺宝项目的 iOS 客户端
+ - [node chat](https://github.com/lixinchn/nodechat): 一个后端使用 Node，前端使用 backbone.js 实现的在线聊天系统
 
 
 # 技能清单
